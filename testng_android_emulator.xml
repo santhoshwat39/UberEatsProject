@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="Test_NativeApp-Pixel_Emulator">
+        <parameter name="platformName" value="Android"></parameter>
+        <parameter name="udid" value="emulator-5554"></parameter>
+        <parameter name="deviceName" value="Pixel_6_API_31"></parameter>
+        <parameter name="emulator" value="yes"></parameter>
+        <classes>
+            <class name="com.uiTests.UberEatsTests"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
